@@ -9,7 +9,9 @@ a {text-decoration: none;}
 ul,ol,li{
     list-style: none;
 }
-
+.flex{
+    display: flex;
+}
 /* common css end */
 
 
@@ -62,9 +64,13 @@ ul,ol,li{
     top: 50%;
     transform: translateY(-50%);
     bottom: initial!important;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
 }
 .carousel-caption h5{
-    color: #fff;
+    color: black;
     font-size: 42px;
 }
 
@@ -73,3 +79,92 @@ ul,ol,li{
     min-height: 300px;
 }
 /* Slider part end */
+
+
+/* About part start */
+
+#about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+
+
+#about button{
+    margin-top: 20px;
+
+}
+.about-content{
+    padding-top: 20px;
+}
+
+.skills-bar{
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.progress-bar{
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+.progress{
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+/* About part end */
+
+
+
+/* Service part start */
+
+#services{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../images/service.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#services h1{
+    text-align: center;
+    color: #efefef;
+    padding-bottom: 10px;
+}
+#services h1:after{
+    content: '';
+    background:#efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+.ser_icon {
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+    width:80px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+.ser_col{
+    text-align: center;
+    margin-left: 30px;
+}
+
+#services p{
+    font-size: 14px;
+    margin-top: 20px;
+    color: #ccc;
+}
+
+
+/* Service part end */

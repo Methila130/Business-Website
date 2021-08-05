@@ -150,10 +150,10 @@ ul,ol,li{
     width:80px;
     border: 1px solid #fff;
     border-radius: 50%;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 .ser_col{
     text-align: center;

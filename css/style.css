@@ -338,4 +338,67 @@ ul li:last-child{
     color: #fff;
 }
 
+.far fa-check-circle{
+
+    color: green;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
 /* Price part end */
+
+
+/* Testimonial part start */
+
+#testimonial{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#testimonial .row{
+    margin-top: 30px;
+}
+
+.col-md-4{
+    margin: 40px auto;
+}
+
+.profile{
+    background-color: #efefef;
+    padding: 70px 10px 10px;
+}
+blockquote{
+    font-size: 16px;
+    line-height: 30px;
+}
+
+/* Testimonial part end */
+
+
+/* Contact part start */
+
+#contact{
+    background:#efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+}
+.contact-form{
+    padding: 15px;
+}
+
+.form-control{
+    border-radius: 0!important;
+    -webkit-border-radius: 0!important;
+    -moz-border-radius: 0!important;
+    -ms-border-radius: 0!important;
+    -o-border-radius: 0!important;
+    border: none;
+}
+::placeholder{
+    color: #999!important;
+}
+.form-group{
+    padding-bottom: 20px;
+}
+/* Contact part end */

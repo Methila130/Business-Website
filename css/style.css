@@ -38,6 +38,8 @@ ul,ol,li{
 
 .navbar{
     background: #fff;
+    margin-left: 200px;
+    
 }
 
 .navbar-toggler{
@@ -105,10 +107,10 @@ ul,ol,li{
 
 .progress-bar{
     border-radius: 16px;
-    -webkit-border-radius: 16px;
-    -moz-border-radius: 16px;
-    -ms-border-radius: 16px;
-    -o-border-radius: 16px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
 }
 .progress{
     border-radius: 16px;
@@ -315,10 +317,10 @@ ul li:last-child{
 .buy-btn{
     background-color: #2196f3;
     border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -ms-border-radius: 3px;
-    -o-border-radius: 3px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
     display: inline-block;
     font-size: 18px;
     padding: 15px 50px;
@@ -389,10 +391,10 @@ blockquote{
 
 .form-control{
     border-radius: 0!important;
-    -webkit-border-radius: 0!important;
-    -moz-border-radius: 0!important;
-    -ms-border-radius: 0!important;
-    -o-border-radius: 0!important;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
     border: none;
 }
 ::placeholder{
@@ -401,4 +403,29 @@ blockquote{
 .form-group{
     padding-bottom: 20px;
 }
+
+
+.follow{
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+
+}
+.contact-info i{
+    margin: 10px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+
+
 /* Contact part end */
+
+
+/* Footer start */
+
+#footer p{
+    color: #fff;
+}
+
+/* Footer end */
